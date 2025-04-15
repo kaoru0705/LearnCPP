@@ -1,5 +1,5 @@
 #include <iostream>
-
+//using namespace std; // 네임스페이스 사용선언 허나 안 쓰는 게 나음
 int main() {
 	int i, j;
 
