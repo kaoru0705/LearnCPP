@@ -1,7 +1,5 @@
 #include <iostream>
 
-
-
 int main() {
 	int int_a = 10;
 	int int_b = 5;
