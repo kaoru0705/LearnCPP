@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "variables_global_vs_local",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "std_string", "std_string\std_string.vcxproj", "{BEEBD32B-912D-4AED-96B0-9FFA95BA8DDD}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "user_defined_literals", "user_defined_literals\user_defined_literals.vcxproj", "{976A288C-3943-4406-B2C8-0CAE2DEA32BB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -81,6 +83,14 @@ Global
 		{BEEBD32B-912D-4AED-96B0-9FFA95BA8DDD}.Release|x64.Build.0 = Release|x64
 		{BEEBD32B-912D-4AED-96B0-9FFA95BA8DDD}.Release|x86.ActiveCfg = Release|Win32
 		{BEEBD32B-912D-4AED-96B0-9FFA95BA8DDD}.Release|x86.Build.0 = Release|Win32
+		{976A288C-3943-4406-B2C8-0CAE2DEA32BB}.Debug|x64.ActiveCfg = Debug|x64
+		{976A288C-3943-4406-B2C8-0CAE2DEA32BB}.Debug|x64.Build.0 = Debug|x64
+		{976A288C-3943-4406-B2C8-0CAE2DEA32BB}.Debug|x86.ActiveCfg = Debug|Win32
+		{976A288C-3943-4406-B2C8-0CAE2DEA32BB}.Debug|x86.Build.0 = Debug|Win32
+		{976A288C-3943-4406-B2C8-0CAE2DEA32BB}.Release|x64.ActiveCfg = Release|x64
+		{976A288C-3943-4406-B2C8-0CAE2DEA32BB}.Release|x64.Build.0 = Release|x64
+		{976A288C-3943-4406-B2C8-0CAE2DEA32BB}.Release|x86.ActiveCfg = Release|Win32
+		{976A288C-3943-4406-B2C8-0CAE2DEA32BB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
