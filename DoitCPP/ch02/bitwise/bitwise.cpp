@@ -15,8 +15,8 @@ int main() {
 	std::cout << "b = " << std::bitset<8>(b) << " : " << b << std::endl;
 	std::cout << "c = " << std::bitset<8>(c) << " : " << c << std::endl;
 	std::cout << "d = " << std::bitset<32>(d) << " : " << d << std::endl;
-	/*std::cout << "e = " << std::bitset<8>(e) << " : " << e << std::endl;
-	std::cout << "f = " << std::bitset<8>(f) << " : " << f << std::endl;*/
+	std::cout << "e = " << std::bitset<8>(e) << " : " << e << std::endl;
+	//std::cout << "f = " << std::bitset<8>(f) << " : " << f << std::endl;
 
 
 	return 0;
