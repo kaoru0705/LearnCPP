@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "array_pointer_1", "array_po
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "new_and_delete_array", "new_and_delete\new_and_delete.vcxproj", "{8C0EE750-9FCB-4D57-9025-F9199773C627}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dynamic_memory_bakery", "dynamic_memory_bakery\dynamic_memory_bakery.vcxproj", "{E2F6C07B-D48A-4FF9-B124-E0A98594ED9D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{8C0EE750-9FCB-4D57-9025-F9199773C627}.Release|x64.Build.0 = Release|x64
 		{8C0EE750-9FCB-4D57-9025-F9199773C627}.Release|x86.ActiveCfg = Release|Win32
 		{8C0EE750-9FCB-4D57-9025-F9199773C627}.Release|x86.Build.0 = Release|Win32
+		{E2F6C07B-D48A-4FF9-B124-E0A98594ED9D}.Debug|x64.ActiveCfg = Debug|x64
+		{E2F6C07B-D48A-4FF9-B124-E0A98594ED9D}.Debug|x64.Build.0 = Debug|x64
+		{E2F6C07B-D48A-4FF9-B124-E0A98594ED9D}.Debug|x86.ActiveCfg = Debug|Win32
+		{E2F6C07B-D48A-4FF9-B124-E0A98594ED9D}.Debug|x86.Build.0 = Debug|Win32
+		{E2F6C07B-D48A-4FF9-B124-E0A98594ED9D}.Release|x64.ActiveCfg = Release|x64
+		{E2F6C07B-D48A-4FF9-B124-E0A98594ED9D}.Release|x64.Build.0 = Release|x64
+		{E2F6C07B-D48A-4FF9-B124-E0A98594ED9D}.Release|x86.ActiveCfg = Release|Win32
+		{E2F6C07B-D48A-4FF9-B124-E0A98594ED9D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
