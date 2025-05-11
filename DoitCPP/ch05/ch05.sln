@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "stack_unwinding_2", "stack_
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "assert1", "assert1\assert1.vcxproj", "{8DC0E4FA-1507-4707-8106-F6FA37E7D67F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "try_catch_1", "try_catch_1\try_catch_1.vcxproj", "{85DF286F-7817-4E27-ADDF-56D51420FE1C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{8DC0E4FA-1507-4707-8106-F6FA37E7D67F}.Release|x64.Build.0 = Release|x64
 		{8DC0E4FA-1507-4707-8106-F6FA37E7D67F}.Release|x86.ActiveCfg = Release|Win32
 		{8DC0E4FA-1507-4707-8106-F6FA37E7D67F}.Release|x86.Build.0 = Release|Win32
+		{85DF286F-7817-4E27-ADDF-56D51420FE1C}.Debug|x64.ActiveCfg = Debug|x64
+		{85DF286F-7817-4E27-ADDF-56D51420FE1C}.Debug|x64.Build.0 = Debug|x64
+		{85DF286F-7817-4E27-ADDF-56D51420FE1C}.Debug|x86.ActiveCfg = Debug|Win32
+		{85DF286F-7817-4E27-ADDF-56D51420FE1C}.Debug|x86.Build.0 = Debug|Win32
+		{85DF286F-7817-4E27-ADDF-56D51420FE1C}.Release|x64.ActiveCfg = Release|x64
+		{85DF286F-7817-4E27-ADDF-56D51420FE1C}.Release|x64.Build.0 = Release|x64
+		{85DF286F-7817-4E27-ADDF-56D51420FE1C}.Release|x86.ActiveCfg = Release|Win32
+		{85DF286F-7817-4E27-ADDF-56D51420FE1C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
