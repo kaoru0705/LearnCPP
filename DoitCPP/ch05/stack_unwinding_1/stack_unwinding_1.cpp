@@ -1,6 +1,5 @@
 #include <iostream>
 
-
 void func_throw() {
     std::cout << "func_throw()" << std::endl;
     std::cout << "throw -1" << std::endl;
