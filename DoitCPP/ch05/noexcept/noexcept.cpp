@@ -14,6 +14,7 @@ void fake_noexcept() noexcept
 int main() {
 	real_noexcept();
 
+	std::cout << noexcept(real_noexcept()) << std::endl;
 	try
 	{
 		fake_noexcept();
