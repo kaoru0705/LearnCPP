@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "assert1", "assert1\assert1.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "try_catch_1", "try_catch_1\try_catch_1.vcxproj", "{85DF286F-7817-4E27-ADDF-56D51420FE1C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "noexcept", "noexcept\noexcept.vcxproj", "{C88CD54A-C013-4061-952B-CBC282B8A76E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -71,6 +73,14 @@ Global
 		{85DF286F-7817-4E27-ADDF-56D51420FE1C}.Release|x64.Build.0 = Release|x64
 		{85DF286F-7817-4E27-ADDF-56D51420FE1C}.Release|x86.ActiveCfg = Release|Win32
 		{85DF286F-7817-4E27-ADDF-56D51420FE1C}.Release|x86.Build.0 = Release|Win32
+		{C88CD54A-C013-4061-952B-CBC282B8A76E}.Debug|x64.ActiveCfg = Debug|x64
+		{C88CD54A-C013-4061-952B-CBC282B8A76E}.Debug|x64.Build.0 = Debug|x64
+		{C88CD54A-C013-4061-952B-CBC282B8A76E}.Debug|x86.ActiveCfg = Debug|Win32
+		{C88CD54A-C013-4061-952B-CBC282B8A76E}.Debug|x86.Build.0 = Debug|Win32
+		{C88CD54A-C013-4061-952B-CBC282B8A76E}.Release|x64.ActiveCfg = Release|x64
+		{C88CD54A-C013-4061-952B-CBC282B8A76E}.Release|x64.Build.0 = Release|x64
+		{C88CD54A-C013-4061-952B-CBC282B8A76E}.Release|x86.ActiveCfg = Release|Win32
+		{C88CD54A-C013-4061-952B-CBC282B8A76E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
