@@ -9,20 +9,20 @@ int main() {
     std::random_device rd;
     std::mt19937 gen(rd());
     std::uniform_int_distribution<> dist(1, 100);
-    int answer = dist(gen);
+    int answer{ dist(gen) };
 
     // *count 변수는 문제와는 상관없지만, 게임의 재미를 위해 추가하였습니다.
     // *몇 번만에 숫자 맞히기를 성공하는지 카운트하기 위해 활용되는 변수입니다. :)
-    int count = 0;
+    int count{ 0 };
 
     // 게임 시작
-    bool is_correct = false;
+    bool is_correct{ false };
     while (!is_correct) {
         try {
             // 사용자에게 숫자 입력 요청
             ++count;
             std::cout << "숫자를 입력하세요: ";
-            int guess;
+            int guess{};
             std::cin >> guess;
 
             // 숫자가 아닌 입력

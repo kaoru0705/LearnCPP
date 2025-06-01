@@ -7,7 +7,7 @@ int main() {
     std::cout << "오늘 방문 손님: ";
     std::cin >> customer_num;   // 손님 수 입력
 
-    std::string *bread = new std::string[customer_num];  // 손님 수만큼 string 배열 생성
+    std::string* bread{ new std::string[customer_num] };  // 손님 수만큼 string 배열 생성
 
     // 입력받은 손님 수만큼 반복
     for (int i = 0; i < customer_num; i++) {

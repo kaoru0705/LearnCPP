@@ -8,9 +8,9 @@ void print_number(int* _pt_int) {
 }
 
 int main() {
-	int a = 100;
-	int* b = NULL;
-	int* c = NULL;
+	int a{ 100 };
+	int* b{ nullptr };
+	int* c{ nullptr };
 
 	b = &a;
 	print_number(b);
