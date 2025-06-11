@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="bank.cpp">
+    <ClCompile Include="monster_class.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

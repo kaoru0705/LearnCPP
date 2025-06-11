@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{a76c4733-13a2-4176-9538-e4e1eedef08c}</ProjectGuid>
-    <RootNamespace>bank</RootNamespace>
+    <ProjectGuid>{96ee9adb-ea13-4f52-9738-173f6ff8f719}</ProjectGuid>
+    <RootNamespace>monsterclass</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="bank.cpp" />
+    <ClCompile Include="monster_class.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
