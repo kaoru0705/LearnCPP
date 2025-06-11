@@ -1,20 +1,40 @@
 #include <iostream>
 /*
 Cpp는 클래스의 접근지정자를 지정하는 게 아니라 상속받을 클래스의 접근지정자를 지정할 수 있다.
-public으로 지정할 경우 그대로 이며 private이면 전부 private으로 바뀌고, protected이면 public변수는 protected로 바뀐다.
+superclass의 맴버들이 public으로 지정할 경우 그대로이며 private이면 전부 private으로 바뀌고, protected이면 public은 protected로 바뀐다.
+https://www.learncpp.com/cpp-tutorial/inheritance-and-access-specifiers/
+Note that this does not affect the way that the derived class accesses members inherited from its parent!
 */
 class Base {
 public:
-	int a;
+	int a{};
 private:
-	int b;
+	int b{};
 protected:
-	int c;
+	int c{};
 };
 
-class Derived : private Base {
+class Derived1 : public Base {
 public:
-	Derived() {
+	Derived1() {
+		a = 5;
+		b = 6;
+		c = 7;
+	}
+};
+
+class Derived2 : private Base {
+public:
+	Derived2() {
+		a = 5;
+		b = 6;
+		c = 7;
+	}
+};
+
+class Derived3 : protected Base {
+public:
+	Derived3() {
 		a = 5;
 		b = 6;
 		c = 7;
@@ -22,12 +42,21 @@ public:
 };
 
 int main() {
-	Derived f;
-	f.a;
-	f.b;
-	f.c;
+	Derived1 dr1;
+	Derived2 dr2;
+	Derived3 dr3;
 
-	std::cout << f.a << std::endl;
+	dr1.a;
+	dr1.b;
+	dr1.c;
+
+	dr2.a;
+	dr2.b;
+	dr2.c;
+
+	dr3.a;
+	dr3.b;
+	dr3.c;
 
 	return 0;
 }
