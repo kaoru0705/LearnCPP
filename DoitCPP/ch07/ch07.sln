@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bank", "bank\bank.vcxproj",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "monster_class", "monster_class\monster_class.vcxproj", "{96EE9ADB-EA13-4F52-9738-173F6FF8F719}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "access_specifier_of_super", "access_specifier_of_super\access_specifier_of_super.vcxproj", "{641E0B22-8C1E-40DC-966E-3D44041D3832}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{96EE9ADB-EA13-4F52-9738-173F6FF8F719}.Release|x64.Build.0 = Release|x64
 		{96EE9ADB-EA13-4F52-9738-173F6FF8F719}.Release|x86.ActiveCfg = Release|Win32
 		{96EE9ADB-EA13-4F52-9738-173F6FF8F719}.Release|x86.Build.0 = Release|Win32
+		{641E0B22-8C1E-40DC-966E-3D44041D3832}.Debug|x64.ActiveCfg = Debug|x64
+		{641E0B22-8C1E-40DC-966E-3D44041D3832}.Debug|x64.Build.0 = Debug|x64
+		{641E0B22-8C1E-40DC-966E-3D44041D3832}.Debug|x86.ActiveCfg = Debug|Win32
+		{641E0B22-8C1E-40DC-966E-3D44041D3832}.Debug|x86.Build.0 = Debug|Win32
+		{641E0B22-8C1E-40DC-966E-3D44041D3832}.Release|x64.ActiveCfg = Release|x64
+		{641E0B22-8C1E-40DC-966E-3D44041D3832}.Release|x64.Build.0 = Release|x64
+		{641E0B22-8C1E-40DC-966E-3D44041D3832}.Release|x86.ActiveCfg = Release|Win32
+		{641E0B22-8C1E-40DC-966E-3D44041D3832}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
