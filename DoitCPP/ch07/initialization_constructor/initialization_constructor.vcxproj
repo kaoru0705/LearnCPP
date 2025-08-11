@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{e494dc6e-ee24-4c2f-80a0-8507fc5fd799}</ProjectGuid>
-    <RootNamespace>callonconstructor</RootNamespace>
+    <ProjectGuid>{276ba1bb-735c-4898-95b8-e897d35ba7b2}</ProjectGuid>
+    <RootNamespace>initializationconstructor</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="call_on_constructor.cpp" />
+    <ClCompile Include="initialization_constructor.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
