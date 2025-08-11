@@ -37,7 +37,7 @@ private:
 int main() {
     monster_a forest_monster;
     forest_monster.show_location();
-    monster_a wood_monster(10, 25);
+    monster_a wood_monster{ 10, 15.5 };
     wood_monster.show_location();
 
     return 0;
