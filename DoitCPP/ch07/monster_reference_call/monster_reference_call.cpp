@@ -1,5 +1,6 @@
 #include <iostream>
 
+
 class character {
 public:
 	character() : hp(100), power(100) {};
@@ -63,20 +64,17 @@ void monster_c::attack_special(player target_player) {
 
 int main() {
 	player player_1;
-
 	monster_a forest_monster;
-	monster_b tutorial_monster;
-	monster_c boss_monster;
 
-	std::cout << "오버라이딩된 공격" << std::endl;
-	tutorial_monster.attack_special(player_1);
-	forest_monster.attack_special(player_1);
-	boss_monster.attack_special(player_1);
+	monster& mon = forest_monster;
+	monster_a& mon_a = forest_monster;
 
-	std::cout << std::endl << "기본(monster 클래스) 공격" << std::endl;
-	tutorial_monster.monster::attack_special(player_1);
-	forest_monster.monster::attack_special(player_1);
-	boss_monster.monster::attack_special(player_1);
+	std::cout << std::endl << "부모 클래스 레퍼런스로 공격" << std::endl;
+	mon.attack_special(player_1);
+
+	std::cout << std::endl << "자식 클래스 레퍼런스로 공격" << std::endl;
+	mon_a.attack_special(player_1);
+
 
 	return 0;
 }

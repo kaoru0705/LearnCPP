@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{f124b56e-1092-4e23-b548-ca56ef67fe8d}</ProjectGuid>
-    <RootNamespace>monsterclassoverride</RootNamespace>
+    <ProjectGuid>{e203c244-beba-4ede-96d3-6153e0e6cc0e}</ProjectGuid>
+    <RootNamespace>monsterreferencecall</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="monster_class_override.cpp" />
+    <ClCompile Include="monster_reference_call.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
