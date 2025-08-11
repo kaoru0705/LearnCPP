@@ -35,7 +35,7 @@ private:
 };
 
 int main() {
-    monster_a forest_monster;
+    monster_a forest_monster; 
     forest_monster.show_location();
 
     return 0;
