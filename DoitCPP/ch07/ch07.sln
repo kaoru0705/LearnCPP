@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "monster_reference_call", "m
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "monster_virtual_function", "monster_virtual_function\monster_virtual_function.vcxproj", "{5A14606B-8F3D-4500-90B6-E1956C85D909}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "inheritance_constructor", "inheritance_constructor\inheritance_constructor.vcxproj", "{97BF2E55-60C8-41E7-BC7F-E2C844AE0517}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -81,6 +83,14 @@ Global
 		{5A14606B-8F3D-4500-90B6-E1956C85D909}.Release|x64.Build.0 = Release|x64
 		{5A14606B-8F3D-4500-90B6-E1956C85D909}.Release|x86.ActiveCfg = Release|Win32
 		{5A14606B-8F3D-4500-90B6-E1956C85D909}.Release|x86.Build.0 = Release|Win32
+		{97BF2E55-60C8-41E7-BC7F-E2C844AE0517}.Debug|x64.ActiveCfg = Debug|x64
+		{97BF2E55-60C8-41E7-BC7F-E2C844AE0517}.Debug|x64.Build.0 = Debug|x64
+		{97BF2E55-60C8-41E7-BC7F-E2C844AE0517}.Debug|x86.ActiveCfg = Debug|Win32
+		{97BF2E55-60C8-41E7-BC7F-E2C844AE0517}.Debug|x86.Build.0 = Debug|Win32
+		{97BF2E55-60C8-41E7-BC7F-E2C844AE0517}.Release|x64.ActiveCfg = Release|x64
+		{97BF2E55-60C8-41E7-BC7F-E2C844AE0517}.Release|x64.Build.0 = Release|x64
+		{97BF2E55-60C8-41E7-BC7F-E2C844AE0517}.Release|x86.ActiveCfg = Release|Win32
+		{97BF2E55-60C8-41E7-BC7F-E2C844AE0517}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
