@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "monster_virtual_function", 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "inheritance_constructor", "inheritance_constructor\inheritance_constructor.vcxproj", "{97BF2E55-60C8-41E7-BC7F-E2C844AE0517}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "constructor_with_parameter", "constructor_with_parameter\constructor_with_parameter.vcxproj", "{263B4373-7245-445E-9523-3F4903C03BC3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -91,6 +93,14 @@ Global
 		{97BF2E55-60C8-41E7-BC7F-E2C844AE0517}.Release|x64.Build.0 = Release|x64
 		{97BF2E55-60C8-41E7-BC7F-E2C844AE0517}.Release|x86.ActiveCfg = Release|Win32
 		{97BF2E55-60C8-41E7-BC7F-E2C844AE0517}.Release|x86.Build.0 = Release|Win32
+		{263B4373-7245-445E-9523-3F4903C03BC3}.Debug|x64.ActiveCfg = Debug|x64
+		{263B4373-7245-445E-9523-3F4903C03BC3}.Debug|x64.Build.0 = Debug|x64
+		{263B4373-7245-445E-9523-3F4903C03BC3}.Debug|x86.ActiveCfg = Debug|Win32
+		{263B4373-7245-445E-9523-3F4903C03BC3}.Debug|x86.Build.0 = Debug|Win32
+		{263B4373-7245-445E-9523-3F4903C03BC3}.Release|x64.ActiveCfg = Release|x64
+		{263B4373-7245-445E-9523-3F4903C03BC3}.Release|x64.Build.0 = Release|x64
+		{263B4373-7245-445E-9523-3F4903C03BC3}.Release|x86.ActiveCfg = Release|Win32
+		{263B4373-7245-445E-9523-3F4903C03BC3}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
