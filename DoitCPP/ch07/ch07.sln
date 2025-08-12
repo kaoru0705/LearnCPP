@@ -39,6 +39,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "liskov_principle_destructor
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "virtual_destructor", "virtual_destructor\virtual_destructor.vcxproj", "{C5C1AAC2-8F11-4643-864E-463AECB3D86B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "function_chaining", "function_chaining\function_chaining.vcxproj", "{550235EE-B00F-4038-A398-9D3E0A669807}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -191,6 +193,14 @@ Global
 		{C5C1AAC2-8F11-4643-864E-463AECB3D86B}.Release|x64.Build.0 = Release|x64
 		{C5C1AAC2-8F11-4643-864E-463AECB3D86B}.Release|x86.ActiveCfg = Release|Win32
 		{C5C1AAC2-8F11-4643-864E-463AECB3D86B}.Release|x86.Build.0 = Release|Win32
+		{550235EE-B00F-4038-A398-9D3E0A669807}.Debug|x64.ActiveCfg = Debug|x64
+		{550235EE-B00F-4038-A398-9D3E0A669807}.Debug|x64.Build.0 = Debug|x64
+		{550235EE-B00F-4038-A398-9D3E0A669807}.Debug|x86.ActiveCfg = Debug|Win32
+		{550235EE-B00F-4038-A398-9D3E0A669807}.Debug|x86.Build.0 = Debug|Win32
+		{550235EE-B00F-4038-A398-9D3E0A669807}.Release|x64.ActiveCfg = Release|x64
+		{550235EE-B00F-4038-A398-9D3E0A669807}.Release|x64.Build.0 = Release|x64
+		{550235EE-B00F-4038-A398-9D3E0A669807}.Release|x86.ActiveCfg = Release|Win32
+		{550235EE-B00F-4038-A398-9D3E0A669807}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -17,7 +17,7 @@ public:
     monster_a() {
         std::cout << "monster_a 클래스 생성자" << std::endl;
     };
-    virtual ~monster_a() {
+    ~monster_a() {
         std::cout << "monster_a 클래스 소멸자" << std::endl;
     }
 };
