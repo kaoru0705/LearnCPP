@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-
+// 멤버함수는 모든 클래스의 객체가 공유하므로 코드 영역에 저장된다. 그렇다면 각 객체에 어떻게 접근하지? 컴파일 과정에서 자동으로 bank *const this를 받고 있는 것과 같다.
 class bank {
 private:
 	int safe; //금고
