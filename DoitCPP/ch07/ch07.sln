@@ -41,6 +41,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "virtual_destructor", "virtu
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "function_chaining", "function_chaining\function_chaining.vcxproj", "{550235EE-B00F-4038-A398-9D3E0A669807}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "operator_overload_monster", "operator_overload_monster\operator_overload_monster.vcxproj", "{9393C2DF-33F9-495C-AF3A-DBA8C1FBFB60}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -201,6 +203,14 @@ Global
 		{550235EE-B00F-4038-A398-9D3E0A669807}.Release|x64.Build.0 = Release|x64
 		{550235EE-B00F-4038-A398-9D3E0A669807}.Release|x86.ActiveCfg = Release|Win32
 		{550235EE-B00F-4038-A398-9D3E0A669807}.Release|x86.Build.0 = Release|Win32
+		{9393C2DF-33F9-495C-AF3A-DBA8C1FBFB60}.Debug|x64.ActiveCfg = Debug|x64
+		{9393C2DF-33F9-495C-AF3A-DBA8C1FBFB60}.Debug|x64.Build.0 = Debug|x64
+		{9393C2DF-33F9-495C-AF3A-DBA8C1FBFB60}.Debug|x86.ActiveCfg = Debug|Win32
+		{9393C2DF-33F9-495C-AF3A-DBA8C1FBFB60}.Debug|x86.Build.0 = Debug|Win32
+		{9393C2DF-33F9-495C-AF3A-DBA8C1FBFB60}.Release|x64.ActiveCfg = Release|x64
+		{9393C2DF-33F9-495C-AF3A-DBA8C1FBFB60}.Release|x64.Build.0 = Release|x64
+		{9393C2DF-33F9-495C-AF3A-DBA8C1FBFB60}.Release|x86.ActiveCfg = Release|Win32
+		{9393C2DF-33F9-495C-AF3A-DBA8C1FBFB60}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
