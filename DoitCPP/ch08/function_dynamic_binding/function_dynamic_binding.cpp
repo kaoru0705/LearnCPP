@@ -1,5 +1,6 @@
 #include <iostream>
 
+
 class character {
 public:
 	character() : hp{ 100 }, power{ 100 }
@@ -50,6 +51,9 @@ int main() {
 	monster* mon = &forest_monster;
 	std::cout << std::endl << "부모 클래스로 업케스팅 후 공격" << std::endl;
 	mon->attack_special(player_1);
+
+	std::cout << std::endl << "부모 클래스로 접근하여 공격" << std::endl;
+	mon->::monster::attack_special(player_1);
 
 	mon = &mother_monster;
 	std::cout << std::endl << "부모 클래스로 공격" << std::endl;
