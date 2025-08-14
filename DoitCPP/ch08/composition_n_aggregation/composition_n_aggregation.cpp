@@ -1,5 +1,8 @@
 #include <iostream>
-
+/*
+composition → “운명 공동체”, aggregation → “독립적 파트너”
+aggregation 모여 있는 것, 집합 그런 뜻
+*/
 // 캐릭터의 특성을 가지고 있는 캐릭터 클래스
 class character {
 public:

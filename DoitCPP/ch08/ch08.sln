@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35931.197 d17.13
+VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "composition_n_aggregation", "composition_n_aggregation\composition_n_aggregation.vcxproj", "{6C49F90B-4593-43F3-A9DD-FB8715BF5CF6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "basic_virtual_function", "basic_virtual_function\basic_virtual_function.vcxproj", "{664BE8FF-1971-40D4-B996-4477EF391BF1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "function_dynamic_binding", "function_dynamic_binding\function_dynamic_binding.vcxproj", "{8A4AB686-EBC6-45FE-8A8A-91843ADF0369}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,22 @@ Global
 		{6C49F90B-4593-43F3-A9DD-FB8715BF5CF6}.Release|x64.Build.0 = Release|x64
 		{6C49F90B-4593-43F3-A9DD-FB8715BF5CF6}.Release|x86.ActiveCfg = Release|Win32
 		{6C49F90B-4593-43F3-A9DD-FB8715BF5CF6}.Release|x86.Build.0 = Release|Win32
+		{664BE8FF-1971-40D4-B996-4477EF391BF1}.Debug|x64.ActiveCfg = Debug|x64
+		{664BE8FF-1971-40D4-B996-4477EF391BF1}.Debug|x64.Build.0 = Debug|x64
+		{664BE8FF-1971-40D4-B996-4477EF391BF1}.Debug|x86.ActiveCfg = Debug|Win32
+		{664BE8FF-1971-40D4-B996-4477EF391BF1}.Debug|x86.Build.0 = Debug|Win32
+		{664BE8FF-1971-40D4-B996-4477EF391BF1}.Release|x64.ActiveCfg = Release|x64
+		{664BE8FF-1971-40D4-B996-4477EF391BF1}.Release|x64.Build.0 = Release|x64
+		{664BE8FF-1971-40D4-B996-4477EF391BF1}.Release|x86.ActiveCfg = Release|Win32
+		{664BE8FF-1971-40D4-B996-4477EF391BF1}.Release|x86.Build.0 = Release|Win32
+		{8A4AB686-EBC6-45FE-8A8A-91843ADF0369}.Debug|x64.ActiveCfg = Debug|x64
+		{8A4AB686-EBC6-45FE-8A8A-91843ADF0369}.Debug|x64.Build.0 = Debug|x64
+		{8A4AB686-EBC6-45FE-8A8A-91843ADF0369}.Debug|x86.ActiveCfg = Debug|Win32
+		{8A4AB686-EBC6-45FE-8A8A-91843ADF0369}.Debug|x86.Build.0 = Debug|Win32
+		{8A4AB686-EBC6-45FE-8A8A-91843ADF0369}.Release|x64.ActiveCfg = Release|x64
+		{8A4AB686-EBC6-45FE-8A8A-91843ADF0369}.Release|x64.Build.0 = Release|x64
+		{8A4AB686-EBC6-45FE-8A8A-91843ADF0369}.Release|x86.ActiveCfg = Release|Win32
+		{8A4AB686-EBC6-45FE-8A8A-91843ADF0369}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
