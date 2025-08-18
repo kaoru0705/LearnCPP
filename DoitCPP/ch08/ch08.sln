@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "virtual_destructor_second",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "monster_find_route", "monster_find_route\monster_find_route.vcxproj", "{76DCF69C-19ED-45C6-B4D2-2B170CD6A355}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "static_class_members", "static_class_members\static_class_members.vcxproj", "{F7A17397-6386-4EC2-8B9D-5F8594AF0F8B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -101,6 +103,14 @@ Global
 		{76DCF69C-19ED-45C6-B4D2-2B170CD6A355}.Release|x64.Build.0 = Release|x64
 		{76DCF69C-19ED-45C6-B4D2-2B170CD6A355}.Release|x86.ActiveCfg = Release|Win32
 		{76DCF69C-19ED-45C6-B4D2-2B170CD6A355}.Release|x86.Build.0 = Release|Win32
+		{F7A17397-6386-4EC2-8B9D-5F8594AF0F8B}.Debug|x64.ActiveCfg = Debug|x64
+		{F7A17397-6386-4EC2-8B9D-5F8594AF0F8B}.Debug|x64.Build.0 = Debug|x64
+		{F7A17397-6386-4EC2-8B9D-5F8594AF0F8B}.Debug|x86.ActiveCfg = Debug|Win32
+		{F7A17397-6386-4EC2-8B9D-5F8594AF0F8B}.Debug|x86.Build.0 = Debug|Win32
+		{F7A17397-6386-4EC2-8B9D-5F8594AF0F8B}.Release|x64.ActiveCfg = Release|x64
+		{F7A17397-6386-4EC2-8B9D-5F8594AF0F8B}.Release|x64.Build.0 = Release|x64
+		{F7A17397-6386-4EC2-8B9D-5F8594AF0F8B}.Release|x86.ActiveCfg = Release|Win32
+		{F7A17397-6386-4EC2-8B9D-5F8594AF0F8B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
