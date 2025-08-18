@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{e7bc1a76-6b7c-4876-a603-a52a176e910b}</ProjectGuid>
-    <RootNamespace>purevirtualfunctionerror</RootNamespace>
+    <ProjectGuid>{2259b451-ca2b-46f8-b666-c8b40974e368}</ProjectGuid>
+    <RootNamespace>purevirtualfunction</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="pure_virtual_function_error.cpp" />
+    <ClCompile Include="pure_virtual_function.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -9,6 +9,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "basic_virtual_function", "b
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "function_dynamic_binding", "function_dynamic_binding\function_dynamic_binding.vcxproj", "{8A4AB686-EBC6-45FE-8A8A-91843ADF0369}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pure_virtual_function_error", "pure_virtual_function_error\pure_virtual_function_error.vcxproj", "{E7BC1A76-6B7C-4876-A603-A52A176E910B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pure_virtual_function", "pure_virtual_function\pure_virtual_function.vcxproj", "{2259B451-CA2B-46F8-B666-C8B40974E368}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +45,22 @@ Global
 		{8A4AB686-EBC6-45FE-8A8A-91843ADF0369}.Release|x64.Build.0 = Release|x64
 		{8A4AB686-EBC6-45FE-8A8A-91843ADF0369}.Release|x86.ActiveCfg = Release|Win32
 		{8A4AB686-EBC6-45FE-8A8A-91843ADF0369}.Release|x86.Build.0 = Release|Win32
+		{E7BC1A76-6B7C-4876-A603-A52A176E910B}.Debug|x64.ActiveCfg = Debug|x64
+		{E7BC1A76-6B7C-4876-A603-A52A176E910B}.Debug|x64.Build.0 = Debug|x64
+		{E7BC1A76-6B7C-4876-A603-A52A176E910B}.Debug|x86.ActiveCfg = Debug|Win32
+		{E7BC1A76-6B7C-4876-A603-A52A176E910B}.Debug|x86.Build.0 = Debug|Win32
+		{E7BC1A76-6B7C-4876-A603-A52A176E910B}.Release|x64.ActiveCfg = Release|x64
+		{E7BC1A76-6B7C-4876-A603-A52A176E910B}.Release|x64.Build.0 = Release|x64
+		{E7BC1A76-6B7C-4876-A603-A52A176E910B}.Release|x86.ActiveCfg = Release|Win32
+		{E7BC1A76-6B7C-4876-A603-A52A176E910B}.Release|x86.Build.0 = Release|Win32
+		{2259B451-CA2B-46F8-B666-C8B40974E368}.Debug|x64.ActiveCfg = Debug|x64
+		{2259B451-CA2B-46F8-B666-C8B40974E368}.Debug|x64.Build.0 = Debug|x64
+		{2259B451-CA2B-46F8-B666-C8B40974E368}.Debug|x86.ActiveCfg = Debug|Win32
+		{2259B451-CA2B-46F8-B666-C8B40974E368}.Debug|x86.Build.0 = Debug|Win32
+		{2259B451-CA2B-46F8-B666-C8B40974E368}.Release|x64.ActiveCfg = Release|x64
+		{2259B451-CA2B-46F8-B666-C8B40974E368}.Release|x64.Build.0 = Release|x64
+		{2259B451-CA2B-46F8-B666-C8B40974E368}.Release|x86.ActiveCfg = Release|Win32
+		{2259B451-CA2B-46F8-B666-C8B40974E368}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

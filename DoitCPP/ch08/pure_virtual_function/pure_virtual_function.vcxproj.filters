@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="pure_virtual_function_error.cpp">
+    <ClCompile Include="pure_virtual_function.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

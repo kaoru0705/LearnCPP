@@ -37,7 +37,12 @@ class monster_a : public monster, character {
 public:
     //상속받은 함수 오버라이딩 
     virtual void attack_special(player target_player) override;
+    virtual void attack_at_dawn() override;
 };
+
+void monster_a::attack_at_dawn() {
+    std::cout << "동쪽에서 기습!" << std::endl;
+}
 
 void monster_a::attack_special(player target_player) {
     std::cout << "인텡글 공격 : 데미지 - 15 hp" << std::endl;
@@ -48,10 +53,15 @@ class monster_b : public monster, character {
 public:
     //상속받은 함수 오버라이딩
     virtual void attack_special(player target_player) override;
+    virtual void attack_at_dawn() override;
 };
 
 void monster_b::attack_special(player target_player) {
     std::cout << "가상 공격 : 데미지 - 0 hp" << std::endl;
+}
+
+void monster_b::attack_at_dawn() {
+    std::cout << "적진에 조용히 침투하여 방화!" << std::endl;
 }
 
 //몬스터 C는 기본 Monster 클래스로부터 상속
@@ -59,10 +69,15 @@ class monster_c : public monster, character {
 public:
     //상속받은 함수 오버라이딩
     virtual void attack_special(player target_player) override;
+    virtual void attack_at_dawn() override;
 };
 
 void monster_c::attack_special(player target_player) {
     std::cout << "강력 뇌전 공격 : 데미지 - 100 hp" << std::endl;
+}
+
+void monster_c::attack_at_dawn() {
+    std::cout << "남쪽에서 적진을 향해 대포 발사!" << std::endl;
 }
 
 int main() {
