@@ -1,0 +1,46 @@
+#include <iostream>
+
+//기본 Monster 클래스
+class monster {
+public:
+	monster();   // 생성자
+	~monster();  // 소멸자
+private:
+	int* dummy;
+};
+
+monster::monster() {
+	std::cout << "monster() 생성자 호출" << std::endl;
+	dummy = new int;
+}
+
+monster::~monster() {
+	std::cout << "~monster() 소멸자 호출" << std::endl;
+	delete dummy;   // 메모리 삭제
+}
+
+//몬스터 A는 기본 Monster 클래스로부터 상속
+class monster_a : public monster {
+public:
+	monster_a();
+	~monster_a();
+private:
+	int* dummy_a;
+};
+
+monster_a::monster_a() {
+	std::cout << "monster_a() 생성자 호출" << std::endl;
+	dummy_a = new int;
+}
+
+monster_a::~monster_a() {
+	std::cout << "~monster_a() 소멸자 호출" << std::endl;
+	delete dummy_a;
+}
+
+int main() {
+	monster_a* mon = new monster_a();
+
+	delete mon;
+	return 0;
+}
