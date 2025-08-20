@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="class_template_datatype_inference.cpp">
+    <ClCompile Include="class_template_partial_specialization.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
