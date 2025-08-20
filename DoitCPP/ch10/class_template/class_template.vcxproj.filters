@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="function_template_specialization.cpp">
+    <ClCompile Include="class_template.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

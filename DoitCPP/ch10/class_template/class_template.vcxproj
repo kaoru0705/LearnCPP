@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{a633ae12-e96f-4638-b072-c71df379fb07}</ProjectGuid>
-    <RootNamespace>functiontemplatespecialization</RootNamespace>
+    <ProjectGuid>{0ed832af-97c7-492f-b141-6c8f55cde4ec}</ProjectGuid>
+    <RootNamespace>classtemplate</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="function_template_specialization.cpp" />
+    <ClCompile Include="class_template.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
