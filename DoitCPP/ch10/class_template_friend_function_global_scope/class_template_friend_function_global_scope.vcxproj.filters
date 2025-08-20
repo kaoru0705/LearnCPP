@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="class_template_friend_function.cpp">
+    <ClCompile Include="class_template_friend_function_global_scope.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{6395d4e9-f6c3-4cb2-b47f-0367c25899bb}</ProjectGuid>
-    <RootNamespace>classtemplatefriendfunction</RootNamespace>
+    <ProjectGuid>{6effd836-175e-4ac9-916d-dac8a8077c67}</ProjectGuid>
+    <RootNamespace>classtemplatefriendfunctionglobalscope</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="class_template_friend_function.cpp" />
+    <ClCompile Include="class_template_friend_function_global_scope.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
