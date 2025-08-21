@@ -4,7 +4,7 @@
 
 int main() {
     // 문자열 생성
-    std::string text = "The C++ programming language is one of the hardest languages.";
+    std::string text{ "The C++ programming language is one of the hardest languages." };
 
     // 찾을 문자열과 대체할 문자열 정의
     std::string target{ "hardest" };
