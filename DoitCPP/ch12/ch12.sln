@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "what_is_dependent_type(name
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "two_phase_name_lookup", "two_phase_name_lookup\two_phase_name_lookup.vcxproj", "{DD928F87-6171-48F4-91FB-6B29A205D4F1}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vector_const_iterator", "vector_const_iterator\vector_const_iterator.vcxproj", "{C10E45B3-6AF2-4225-AAC8-28EAA91E0403}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -71,6 +73,14 @@ Global
 		{DD928F87-6171-48F4-91FB-6B29A205D4F1}.Release|x64.Build.0 = Release|x64
 		{DD928F87-6171-48F4-91FB-6B29A205D4F1}.Release|x86.ActiveCfg = Release|Win32
 		{DD928F87-6171-48F4-91FB-6B29A205D4F1}.Release|x86.Build.0 = Release|Win32
+		{C10E45B3-6AF2-4225-AAC8-28EAA91E0403}.Debug|x64.ActiveCfg = Debug|x64
+		{C10E45B3-6AF2-4225-AAC8-28EAA91E0403}.Debug|x64.Build.0 = Debug|x64
+		{C10E45B3-6AF2-4225-AAC8-28EAA91E0403}.Debug|x86.ActiveCfg = Debug|Win32
+		{C10E45B3-6AF2-4225-AAC8-28EAA91E0403}.Debug|x86.Build.0 = Debug|Win32
+		{C10E45B3-6AF2-4225-AAC8-28EAA91E0403}.Release|x64.ActiveCfg = Release|x64
+		{C10E45B3-6AF2-4225-AAC8-28EAA91E0403}.Release|x64.Build.0 = Release|x64
+		{C10E45B3-6AF2-4225-AAC8-28EAA91E0403}.Release|x86.ActiveCfg = Release|Win32
+		{C10E45B3-6AF2-4225-AAC8-28EAA91E0403}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
