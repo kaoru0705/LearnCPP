@@ -22,7 +22,7 @@ int main() {
     std::cout << "저장되어 있는 Bob 점수의 갯수: " << count << std::endl;
 
     // 특정 키를 가진 원소의 범위 구하기
-    auto range = scores.equal_range("Bob"); // equal_range의 second는 "Bob" 다음의 첫 원소 "Dumb"을 가리킨다.
+    auto range = scores.equal_range("Bob"); // equal_range의 second는 key보다 큰 첫 번째 원소를 가리키는 iterator. 즉, "Bob" 다음의 첫 원소 "Dumb"을 가리킨다.
     if (range.first != scores.end()) {
         std::cout << "Bob의 모든 점수: ";
         for (auto it{ range.first }; it != range.second; ++it) {
