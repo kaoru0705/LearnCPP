@@ -15,6 +15,7 @@ public:
 };
 
 int main() {
+    // uniform initialization my_class yoyo{1, "one"}; 값이 멤버변수 순서대로 대입됨.
     std::vector<my_class> objects { {1, "one"}, {2, "two"}, {3, "three"}, {4, "four"}, {5, "five"} };
 
     // my_class 클래스의 모든 멤버 변수까지 같은 객체를 찾음
