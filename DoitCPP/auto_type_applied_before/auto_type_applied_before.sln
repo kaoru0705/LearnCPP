@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "enum_usage", "enum_usage\en
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "compile_time_and_runtime", "compile_time_and_runtime\compile_time_and_runtime.vcxproj", "{7F75F2DC-AB16-45B0-8DEF-485355445740}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "constexpr_function", "constexpr_function\constexpr_function.vcxproj", "{F94EEB3C-627E-4A5A-985F-24409A15B2EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{7F75F2DC-AB16-45B0-8DEF-485355445740}.Release|x64.Build.0 = Release|x64
 		{7F75F2DC-AB16-45B0-8DEF-485355445740}.Release|x86.ActiveCfg = Release|Win32
 		{7F75F2DC-AB16-45B0-8DEF-485355445740}.Release|x86.Build.0 = Release|Win32
+		{F94EEB3C-627E-4A5A-985F-24409A15B2EB}.Debug|x64.ActiveCfg = Debug|x64
+		{F94EEB3C-627E-4A5A-985F-24409A15B2EB}.Debug|x64.Build.0 = Debug|x64
+		{F94EEB3C-627E-4A5A-985F-24409A15B2EB}.Debug|x86.ActiveCfg = Debug|Win32
+		{F94EEB3C-627E-4A5A-985F-24409A15B2EB}.Debug|x86.Build.0 = Debug|Win32
+		{F94EEB3C-627E-4A5A-985F-24409A15B2EB}.Release|x64.ActiveCfg = Release|x64
+		{F94EEB3C-627E-4A5A-985F-24409A15B2EB}.Release|x64.Build.0 = Release|x64
+		{F94EEB3C-627E-4A5A-985F-24409A15B2EB}.Release|x86.ActiveCfg = Release|Win32
+		{F94EEB3C-627E-4A5A-985F-24409A15B2EB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
