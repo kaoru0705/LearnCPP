@@ -45,6 +45,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "operator_overload_monster",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "adaptive_cruise_modeling", "adative_cruise_modeling\adative_cruise_modeling.vcxproj", "{803D1F4A-3511-41A7-988E-0B07E30778A8}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "introduction_to_copy_constructor", "introduction_to_copy_constructor\introduction_to_copy_constructor.vcxproj", "{4B60A15E-DD2A-4297-9624-C066F2AB8654}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -221,6 +223,14 @@ Global
 		{803D1F4A-3511-41A7-988E-0B07E30778A8}.Release|x64.Build.0 = Release|x64
 		{803D1F4A-3511-41A7-988E-0B07E30778A8}.Release|x86.ActiveCfg = Release|Win32
 		{803D1F4A-3511-41A7-988E-0B07E30778A8}.Release|x86.Build.0 = Release|Win32
+		{4B60A15E-DD2A-4297-9624-C066F2AB8654}.Debug|x64.ActiveCfg = Debug|x64
+		{4B60A15E-DD2A-4297-9624-C066F2AB8654}.Debug|x64.Build.0 = Debug|x64
+		{4B60A15E-DD2A-4297-9624-C066F2AB8654}.Debug|x86.ActiveCfg = Debug|Win32
+		{4B60A15E-DD2A-4297-9624-C066F2AB8654}.Debug|x86.Build.0 = Debug|Win32
+		{4B60A15E-DD2A-4297-9624-C066F2AB8654}.Release|x64.ActiveCfg = Release|x64
+		{4B60A15E-DD2A-4297-9624-C066F2AB8654}.Release|x64.Build.0 = Release|x64
+		{4B60A15E-DD2A-4297-9624-C066F2AB8654}.Release|x86.ActiveCfg = Release|Win32
+		{4B60A15E-DD2A-4297-9624-C066F2AB8654}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
