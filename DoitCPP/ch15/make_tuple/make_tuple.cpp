@@ -136,5 +136,6 @@ int main() {
     // decltype은 monster_status_all의 type을 연역으로 반환하고 있다.
     print_out_tuple_second<decltype(monster_status_all), std::tuple_size<decltype(monster_status_all)>::value>::show(monster_status_all);
     std::cout << "}" << std::endl;
+
     return 0;
 }
