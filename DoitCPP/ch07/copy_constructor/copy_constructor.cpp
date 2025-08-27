@@ -3,7 +3,7 @@
 
 class character {
 public:
-    character() : hp(100), power(100)
+    character() : hp{100}, power{100}
     {
     };
 
