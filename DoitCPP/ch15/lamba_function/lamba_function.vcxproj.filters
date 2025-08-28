@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="basic_lamda.cpp">
+    <ClCompile Include="lamba_function_object.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
