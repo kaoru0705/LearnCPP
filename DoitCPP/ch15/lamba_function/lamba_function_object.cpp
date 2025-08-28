@@ -43,5 +43,6 @@ int main() {
     std::cout << std::endl << "람다 표현식 함수 객체로 사용하기" << std::endl;
     std::cout << "--------------------------------------------------------------------" << std::endl;
     vending_machine_object.sale_sale_using_lambda_function_object(payments, changes);
+
     return 0;
 }
