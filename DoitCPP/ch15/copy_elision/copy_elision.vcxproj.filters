@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="tuple_and_structed_binding.cpp">
+    <ClCompile Include="copy_elision.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
