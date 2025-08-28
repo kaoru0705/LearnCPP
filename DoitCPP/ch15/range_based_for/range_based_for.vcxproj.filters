@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="unnecessary_copies.cpp">
+    <ClCompile Include="range_based_for.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
