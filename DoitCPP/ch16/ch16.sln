@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "parameter_pack", "parameter
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fold_expression", "fold_expression\fold_expression.vcxproj", "{6EFF0F0C-A9E8-48E1-9712-D4483FA53176}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "simple_fold_expr", "simple_fold_expr\simple_fold_expr.vcxproj", "{22FA931C-FB49-481F-BF57-FC8639DB71D9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{6EFF0F0C-A9E8-48E1-9712-D4483FA53176}.Release|x64.Build.0 = Release|x64
 		{6EFF0F0C-A9E8-48E1-9712-D4483FA53176}.Release|x86.ActiveCfg = Release|Win32
 		{6EFF0F0C-A9E8-48E1-9712-D4483FA53176}.Release|x86.Build.0 = Release|Win32
+		{22FA931C-FB49-481F-BF57-FC8639DB71D9}.Debug|x64.ActiveCfg = Debug|x64
+		{22FA931C-FB49-481F-BF57-FC8639DB71D9}.Debug|x64.Build.0 = Debug|x64
+		{22FA931C-FB49-481F-BF57-FC8639DB71D9}.Debug|x86.ActiveCfg = Debug|Win32
+		{22FA931C-FB49-481F-BF57-FC8639DB71D9}.Debug|x86.Build.0 = Debug|Win32
+		{22FA931C-FB49-481F-BF57-FC8639DB71D9}.Release|x64.ActiveCfg = Release|x64
+		{22FA931C-FB49-481F-BF57-FC8639DB71D9}.Release|x64.Build.0 = Release|x64
+		{22FA931C-FB49-481F-BF57-FC8639DB71D9}.Release|x86.ActiveCfg = Release|Win32
+		{22FA931C-FB49-481F-BF57-FC8639DB71D9}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
