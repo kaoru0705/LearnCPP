@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="using_declarations_class_members.cpp">
+    <ClCompile Include="using_declarations_enum.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
