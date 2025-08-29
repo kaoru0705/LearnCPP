@@ -39,7 +39,7 @@ int main() {
 
     // 몬스터 C는 매개변수가 없는 기본 생성자가 없어
     // 아래 코드 처럼 객체가 생성이 안됩니다.
-    monster_c mon_c{};
+    //monster_c mon_c{};
 
     std::cout << "몬스터 A(" << mon_a.hp << ", " << mon_a.power << ")" << std::endl;
     std::cout << "몬스터 B(" << mon_b.hp << ", " << mon_b.power << ")" << std::endl;
