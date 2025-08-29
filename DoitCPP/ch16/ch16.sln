@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fold_expression", "fold_exp
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "simple_fold_expr", "simple_fold_expr\simple_fold_expr.vcxproj", "{22FA931C-FB49-481F-BF57-FC8639DB71D9}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "spaceship_operator", "spaceship_operator\spaceship_operator.vcxproj", "{8BE0E632-4433-4EF0-AE03-913BE0D02D9A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{22FA931C-FB49-481F-BF57-FC8639DB71D9}.Release|x64.Build.0 = Release|x64
 		{22FA931C-FB49-481F-BF57-FC8639DB71D9}.Release|x86.ActiveCfg = Release|Win32
 		{22FA931C-FB49-481F-BF57-FC8639DB71D9}.Release|x86.Build.0 = Release|Win32
+		{8BE0E632-4433-4EF0-AE03-913BE0D02D9A}.Debug|x64.ActiveCfg = Debug|x64
+		{8BE0E632-4433-4EF0-AE03-913BE0D02D9A}.Debug|x64.Build.0 = Debug|x64
+		{8BE0E632-4433-4EF0-AE03-913BE0D02D9A}.Debug|x86.ActiveCfg = Debug|Win32
+		{8BE0E632-4433-4EF0-AE03-913BE0D02D9A}.Debug|x86.Build.0 = Debug|Win32
+		{8BE0E632-4433-4EF0-AE03-913BE0D02D9A}.Release|x64.ActiveCfg = Release|x64
+		{8BE0E632-4433-4EF0-AE03-913BE0D02D9A}.Release|x64.Build.0 = Release|x64
+		{8BE0E632-4433-4EF0-AE03-913BE0D02D9A}.Release|x86.ActiveCfg = Release|Win32
+		{8BE0E632-4433-4EF0-AE03-913BE0D02D9A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
