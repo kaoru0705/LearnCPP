@@ -1,7 +1,7 @@
 #include <iostream>
 #include <compare>
 
-struct _tag {
+typedef struct _tag {
     int number;
     char alphabet;
     auto operator<=>(const _tag& object) const {
