@@ -31,7 +31,7 @@ template <typename T> class Derived : public Base<T> {
 public:
     void g() {
         std::cout << "Derived<T>::g" << std::endl;
-        this->f();
+        //this->f();
         //Base<T>::f();
     }
 };

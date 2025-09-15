@@ -2,36 +2,36 @@
 #include <iostream>
 #include <vector>
 /* 의존 타입 */
-//void NonDependent()
-//{
-//    //You can access the member size_type directly.
-//    //This is precisely specified as a vector of ints.
-//
-//    typedef std::vector<int> IntVector;
-//    IntVector::size_type i;
-//
-//    /* ... */
-//}
-//
-//template <class T>
-//void Dependent()
-//{
-//
-//    //Now the vector depends on the type T. 
-//    //Need to use typename to access a dependent name.
-//
-//    typedef std::vector<T> SomeVector;
-//    typename SomeVector::size_type i;
-//
-//    /* ... */
-//}
-//
-//int main()
-//{
-//    NonDependent();
-//    Dependent<int>();
-//    return 0;
-//}
+void NonDependent()
+{
+    //You can access the member size_type directly.
+    //This is precisely specified as a vector of ints.
+
+    typedef std::vector<int> IntVector;
+    IntVector::size_type i;
+
+    /* ... */
+}
+
+template <class T>
+void Dependent()
+{
+
+    //Now the vector depends on the type T. 
+    //Need to use typename to access a dependent name.
+
+    typedef std::vector<T> SomeVector;
+    typename SomeVector::size_type i;
+
+    /* ... */
+}
+
+int main()
+{
+    NonDependent();
+    Dependent<int>();
+    return 0;
+}
 
 //class Dependent
 //{
