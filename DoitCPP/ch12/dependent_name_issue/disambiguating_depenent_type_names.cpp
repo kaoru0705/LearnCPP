@@ -27,6 +27,8 @@ int main()
 {
     Derived<float> df;
     df.g();
+
+
     return 0;
 }
 //  MyType 타입의 지역 변수 k를 선언하려는 세 가지 시도가 나와 있습니다. 처음 두 개는 컴파일 오류를 발생시켜 주석 처리했습니다.
